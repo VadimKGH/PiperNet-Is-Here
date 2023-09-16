@@ -1,0 +1,208 @@
+body {
+    /*margin: 0px auto; !*Расстояние от края элемента до края окна браузера*!*/
+    font-family: Roboto, sans-serif;
+}
+
+/*Header*/
+
+.site-header {
+    width: 100%;
+    height: 84px;
+    background: #007765;
+    /*position: fixed;*/
+}
+
+.main-container {
+    /*width: 100%;*/
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 25%;
+    padding-right: 15%;
+    /*background: yellow;*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.logo {
+    width: 183px;
+    height: 45px;
+    display: inline-flex;
+    align-items: flex-start;
+}
+
+.nav-link {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    color: white;
+    padding-left: 60%;
+    /*align-items: flex-end;*/
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    width: 155px;
+    line-height: normal;
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover {
+    font-size: 25px;
+}
+
+.site-main {
+
+}
+
+/* --------------------- Section Jumbotron*/
+.jumbotron {
+    width: 100%;
+    height: 403px;
+    background: url(images/imageJumbotron.png), lightgray 50% / cover no-repeat;
+}
+
+.jumbo-text {
+    padding: 160px;
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+}
+
+/* --------------------- Section The Problem*/
+/*.problem {*/
+/*    width: auto;*/
+/*    height: 719px;*/
+/*    !*background: yellow;*!*/
+/*}*/
+
+.section-header {
+    padding-top: 48px;
+    color: #007765;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.section-content {
+    width: 55%;
+    height: 68%;
+    margin-left: 22%;
+    /*margin-bottom: 12%;*/
+    color: #000;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    /*background: orange;*/
+}
+
+/* --------------------- Section Hero*/
+.hero {
+    width: 100%;
+    background: url("images/imageHero.png");
+    color: #FFF;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+}
+
+.hero-content {
+    /*width: 55%;*/
+    /*height: 68%;*/
+    color: #FFF;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+    /*padding-left: 20%;*/
+    /*padding-right: 20%;*/
+    /*padding-top: 5%;*/
+    /*background: blue;*/
+    /*text-align: center;*/
+}
+
+/* --------------------- Section PPC*/
+
+.ppc-logo {
+    float: left;
+    padding-right: 48px;
+    padding-left: 22%;
+}
+
+/* --------------------- Section The Team*/
+.team {
+    flex-shrink: 0;
+    background: #EEE;
+}
+
+.team-contaner {
+    width: 55%;
+    height: 68%;
+    margin-left: 22%;
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.team-contaner__fig1 {
+    color: #007765;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.team-contaner__fig2 {
+    color: #000;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.team-contaner__foto {
+    text-align: center;
+}
+
+.team-foto {
+    width: 168px;
+    height: 168px;
+    flex-shrink: 0;
+}
+
+/* --------------------- Footer*/
+.site-footer {
+    width: 100%;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    background: #333;
+}
+
+.site-footer__text {
+    width: 540px;
+    height: 64px;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
