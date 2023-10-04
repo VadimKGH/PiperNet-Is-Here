@@ -3,8 +3,12 @@ body {
     font-family: Roboto, sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .container {
-    max-width: 1080px;
+    max-width: 1219px;
     padding-left: 55px;
     padding-right: 55px;
     /*padding-inline: 55px;*/
@@ -20,18 +24,25 @@ body {
     background: #007765;
     /*background: rgba(255,255,255,.3);*/
 }
+
 .header__container,
 .header > .container {
     height: 84px;
     display: flex;
     justify-content: space-between;
 }
+
 .header__logo {
     /*padding-left: 25%;*/
     display: flex;
     align-items: center;
 }
 
+.jump-link {
+    position: relative;
+    height: 1px;
+    top: -84px;
+}
 
 .site-header {
 }
@@ -109,39 +120,69 @@ body {
 
 /* --------------------- Section Hero*/
 .hero {
-    width: 100%;
-    height: 483px;
-    background: url("images/imageHero.png");
-    color: #FFF;
-    font-size: 48px;
+    padding-top: 128px;
+    padding-bottom: 128px;
+    background-image: url('https://i.ibb.co/PM6cMBn/image.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+.hero__container {
+    box-sizing: border-box;
+    max-width: 1219px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 55px;
+    padding-right: 55px;
+}
+
+.hero__message {
+    font-family: Roboto, sans-serif;
     font-style: italic;
     font-weight: 500;
-    line-height: normal;
-    display: flex;
-    flex-shrink: 1;
-    align-items: center;
-    justify-content: center;
+    font-size: 48px;
+    line-height: 56px;
     text-align: center;
+    color: #fff;
 }
 
-.hero-text {
-    width: 55%;
-    height: 68%;
-    color: #FFF;
-    font-size: 48px;
-    font-style: italic;
-    font-weight: 500;
-    line-height: normal;
-    display: flex;
-    flex-shrink: 1;
-    align-items: center;
+/*.hero {*/
+/*    width: 100%;*/
+/*    height: 483px;*/
+/*    !*background: url("images/imageHero.png");*!*/
+/*    background-image: url("images/imageHero.png");;*/
+/*    background-size: cover;*/
+/*    background-position: center center;*/
+/*    color: #FFF;*/
+/*    font-size: 48px;*/
+/*    font-style: italic;*/
+/*    font-weight: 500;*/
+/*    line-height: normal;*/
+/*    display: flex;*/
+/*    flex-shrink: 1;*/
+/*    align-items: center;*/
+/*    justify-content: center;*/
+/*    text-align: center;*/
+/*}*/
 
-    /*padding-left: 20%;*/
-    /*padding-right: 20%;*/
-    /*padding-top: 5%;*/
-    /*background: blue;*/
-    /*text-align: center;*/
-}
+/*.hero-text {*/
+/*    width: 55%;*/
+/*    height: 68%;*/
+/*    color: #FFF;*/
+/*    font-size: 48px;*/
+/*    font-style: italic;*/
+/*    font-weight: 500;*/
+/*    line-height: normal;*/
+/*    display: flex;*/
+/*    flex-shrink: 1;*/
+/*    align-items: center;*/
+
+/*    !*padding-left: 20%;*!*/
+/*    !*padding-right: 20%;*!*/
+/*    !*padding-top: 5%;*!*/
+/*    !*background: blue;*!*/
+/*    !*text-align: center;*!*/
+/*}*/
 
 /* --------------------- Section PPC*/
 .ppc {
@@ -218,4 +259,3 @@ body {
     font-weight: 400;
     line-height: normal;
 }
-
